@@ -3,7 +3,6 @@
 
 export interface Profile {
   name: string;
-  role: string;
   intro: string;
   links: { label: string; href: string }[];
 }
@@ -25,10 +24,9 @@ export interface Project {
 
 export const profile: Profile = {
   name: "Jacob Barazoto",
-  role: "RevOps / BizDev at LaunchDarkly",
   intro:
-    "I work in revenue operations by day and build things on the side — small, " +
-    "useful apps that scratch an itch or answer a question. This is where they live.",
+    "I build things on the side — small, useful apps that scratch an itch or " +
+    "answer a question. This is where they live.",
   links: [
     { label: "GitHub", href: "https://github.com/jacobbarazoto" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/jacobbarazoto" },
