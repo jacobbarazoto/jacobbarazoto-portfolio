@@ -31,9 +31,8 @@ export const profile: Profile = {
     "useful apps that scratch an itch or answer a question. This is where they live.",
   links: [
     { label: "GitHub", href: "https://github.com/jacobbarazoto" },
-    // TODO: add your real URLs (or remove the placeholders).
     { label: "LinkedIn", href: "https://www.linkedin.com/in/jacobbarazoto" },
-    { label: "Email", href: "mailto:hello@example.com" },
+    { label: "Email", href: "mailto:jacobbarazoto@gmail.com" },
   ],
 };
 
