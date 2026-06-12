@@ -19,7 +19,6 @@ dist-ssr
 # Firebase
 .firebase/
 firebase-debug.log
-.firebaserc
 
 # Editor directories and files
 .vscode/*
